@@ -1,0 +1,30 @@
+body {
+  background-color: black;         /* Fundo preto para toda a página */
+  color: purple;                   /* Cor roxa para o texto */
+  font-family: 'Trebuchet MS', 'Comic Sans MS', cursive;  /* Fontes estilosas em ordem de preferência */
+  margin: 0;                      /* Remove margem padrão do navegador */
+}
+
+header {
+  font-size: 60px;                /* Tamanho grande para o cabeçalho */
+  padding: 6px;                   /* Espaçamento interno para “respirar” */
+  text-align: center;             /* Centraliza o texto dentro do header */
+}
+
+h1 {
+  font-size: 30px;                /* Tamanho médio para títulos */
+  border-bottom: double 5px purple; /* Borda dupla roxa de 5px embaixo do título */
+  text-align: center;             /* Centraliza o texto do título */
+}
+
+p {
+  font-size: 20px;                /* Texto um pouco maior para parágrafos */
+  text-align: center;             /* Centraliza o texto do parágrafo */
+}
+
+iframe, video {
+  display: block;                 /* Faz o vídeo/iframe ocupar linha inteira para aplicar margin */
+  margin: 0 auto;                 /* Margem superior e inferior zero; centraliza horizontalmente */
+  width: 80%;                    /* Limita a largura a 80% da largura do contêiner */
+  max-width: 700px;              /* Impede que o vídeo fique maior que 700px */
+}
